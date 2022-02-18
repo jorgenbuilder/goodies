@@ -1,0 +1,22 @@
+body, html, #root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: inter;
+  color: white;
+}
+
+@media (max-width: 680px) {
+  body {
+    display: none;
+  }
+  html:before {
+    display: block;
+    content: "Doesn't work on a small screen.";
+  }
+}

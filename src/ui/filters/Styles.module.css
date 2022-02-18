@@ -1,0 +1,17 @@
+.root {
+    height: 100vh;
+    min-width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    gap: 5px;
+    overflow-y: scroll;
+}
+
+.filter {}
+
+.filterActive {
+    font-weight: bold;
+}

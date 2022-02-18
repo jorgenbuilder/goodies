@@ -1,0 +1,30 @@
+{
+  "name": "goodies",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dfinity/principal": "0.10.1",
+    "@fontsource/inter": "^4.5.4",
+    "@psychedelic/cap-js": "^0.0.7",
+    "@psychedelic/dab-js": "^1.0.2",
+    "events": "^3.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "zustand": "^3.7.0",
+    "zustand-persist": "^0.4.0"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vite-tsconfig-paths": "^3.4.0"
+  }
+}
